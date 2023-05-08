@@ -49,7 +49,7 @@ let getMovie = () => {
 
             //if movie doesn't exist in database
             else {
-                result.innerHTML = `<h3 class="msg">${data.Error}</h3>`;
+                result.innerHTML = `<h3 class="msg>La pelicula NO se encuentra Registrada</h3>`;
             }
         })
             //if error occurs
